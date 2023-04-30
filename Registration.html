@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Open+Sans:wght@500&display=swap" rel="stylesheet">
+    <title>Registration</title>
+
+</head>
+<body>
+    <div class="container">
+        <div class="first-box">
+            <h1><b>REGISTER NOW</b></h1>
+            <p>while seats are available !</p>
+        </div>
+        <div class="sec-box">
+            <form action="#" method="post">
+                <div class="sub1-box">
+                    
+                    <div class="input-box">
+                        <label for="firsnname">FIRST NAME<sup class="sup-star"> * </sup></label>
+                        <input type="text" name="first-name" required>
+                    </div>
+                    <div class="input-box">
+                        <label for="lastname">LAST NAME<sup class="sup-star"> *</sup></label>
+                        <input type="text" name="last-name" required>
+                    </div>
+                    <div class="input-box">
+                        <label for="company">COMPANY<sup class="sup-star"> *</sup></label>
+                        <input type="text" name="company" required>
+                    </div>
+                    <div class="input-box">
+                        <label for="email">EMAIL<sup class="sup-star"> *</sup></label>
+                        <input type="email" name="email" required>
+                    </div>
+                    <div class="input-box">
+                        <label for="phoneno">PHONE NUMBER<sup class="sup-star"> *</sup></label>
+                        <input type="tel" name="phoneno" required>
+                    </div>
+                    <div class="input-box">
+                        <label for="meal">MEAL PREFERENCE</label>
+                        <span>Lunch details</span>
+                        <select name="prefereces" id="preferences">
+                            <option value="vegetarian">Vegetarian</option>
+		                    <option value="non-vegetarian" selected>Non-Vegetarian</option>
+                        </select>
+                    </div>
+                    
+                    <div class="input-box">
+                        <label for="chequeno">DD/CHEQUE NO.</label>
+                        <input type="text" name="chequeno">
+                    </div>
+                    
+                    <div class="input-box">
+                        <label for="bankname">DRAWN ON(BANK NAME)</label>
+                        <input type="text" name="bankname">
+                    </div>
+                    <div class="input-box">
+                        <label for="payable">PAYABLE AT</label>
+                        <input type="text" name="payable">
+                    </div>
+                    <div class="input-box">
+                        <label for="payment">PAYMENT MODE</label>
+                        <span>Payment details</span>
+                        
+                        <div class="pay">
+                            <input type="radio" name="mode" >
+                            <label for="cash" class="payment">Cash</label>
+                            <input type="radio" name="mode">
+                            <label for="cheque" class="payment">Cheque</label>
+                            <input type="radio" name="mode">
+                            <label for="draf" class="payment">Demand Draf</label>
+                        
+                        </div>
+                    </div>
+                </div>
+                <div class="sub2-box">
+                    <div class="skills">
+                        <h3>Donate us</h3>
+                        <div class="progress-bar">
+                            <div class="donateus">
+                                <span><i class="pic2 fas fa-angle-left"></i>$ 500<i class="pic2 fas fa-angle-right"></i></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="sub3-box">
+                    <button type="submit" class="submit">Submit</button>
+                    <button type="reset" class="reset">Reset</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

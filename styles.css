@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Caveat', cursive;
+}
+body{
+    
+background-image: url('retrosupply-jLwVAUtLOAQ-unsplash.jpg');
+    background-size:cover;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    background-color:transparent;
+    width: 400px;
+    height: 550px;    
+    margin: auto;
+    margin-top: 35px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 6px 6px whitesmoke;
+
+}
+.container2{
+    
+    text-align: center;
+}
+.heading{
+
+    color: black;
+    padding-top: 40px;
+    font-size: 2rem;
+}
+
+#signup{
+    cursor: pointer;
+}
+
+.fields input{
+    font-family: 'Caveat', cursive;
+    font-size: large;
+    display: flex;
+    flex-direction: column;
+    margin-top: 25px;
+    transition:ease-in-out;
+
+    
+}
+
+.enter::placeholder{
+    font-size: 25px;
+    color: rgb(48, 48, 105);
+    
+}
+.enter:focus{
+
+    outline: none;
+}
+.enter:hover{
+    transform: scale(1.1);
+    
+}
+
+#email,#password{
+    font-size: larger;
+    width: 16rem;
+    padding: 10px 10px ;
+    box-shadow: 3px 3px gainsboro;
+    border: 5px solid white;
+    border-radius: 10px;
+    text-indent: 15px;
+
+}
+
+#signin{
+    margin: 30px auto;
+    padding: 10px 50px;
+    border-radius: 30px;
+    outline: none;
+    border-style: none;
+    background-color:darkslategray;
+    box-shadow: 1px 1px 3px 3px silver;
+    color: white;
+}
+#signin:hover{
+    background-color: rgb(209, 209, 213);
+    transform: scale(1.1);
+    color: black;
+}
+.info{
+    color: black;
+    font-weight:bold;
+    font-size: 25px;
+}
+.logos {
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-decoration: none;
+    font-size:x-large;
+    
+}
+.fa-brands{
+    text-decoration: none;
+    color: black;
+
+}
+.fa-brands:hover{
+    transform: scale(0.8);
+    transition:ease-in-out;
+
+    color: black;
+    
+
+}
+.logo1{
+    border-radius: 50%;
+    background-color: white;
+    box-shadow: 2px 2px rgb(224, 221, 221);
+    margin-right: 13px;
+    padding: 9px 17px 9px 17px;
+
+}
+.logo2{
+    border-radius: 50%;
+    background-color: white;
+    box-shadow: 2px 2px rgb(224, 221, 221);
+    margin-left: 13px;
+    padding: 9px 15px 9px 15px;
+}
+.last{
+    display: inline-block;
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+    font-weight: bolder;
+    margin-top: 70px;
+
+    
+}

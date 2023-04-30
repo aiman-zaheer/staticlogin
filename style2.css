@@ -1,0 +1,190 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Caveat', cursive;
+    
+}
+
+.container{
+    display: flex;
+}
+
+.first-box{
+    background-image: url('retrosupply-jLwVAUtLOAQ-unsplash.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    
+}
+.first-box p{
+    font-size: larger;
+}
+.sec-box{
+    background-color: white;
+    padding: 30px 20px 50px 70px;
+    width: 80%;
+}
+.sub1-box{
+    background-color: white;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: 60vh;
+}
+.input-box{
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 15px;
+    border-style: none;
+    
+}
+
+.input-box label{
+    width: 75%;
+    font-weight:bolder;
+    font-size: 17px;
+
+}
+.input-box label sup{
+    color: red;
+}
+.input-box input{
+    accent-color: darkslategrey;
+    margin-top: 10px;
+    height: 40px;
+    width: 80%;
+    padding: 0 10px;
+    border-radius: 2px;
+    border: 1px solid lightgray;
+    color: black;
+    font-size: x-large;
+    border-color: lightgray;
+}
+.input-box input:focus{
+    outline: none;
+}
+.input-box #preferences{
+  padding: 0px 10px;
+  width: 80%;
+  color: black;
+  font-size: 17px;
+  font-weight: 600;
+  border-style: none;
+  border: 1px solid lightgray;
+  border-color: lightgray;
+}
+.input-box span{
+    font-size: larger;
+    
+}
+.pay{
+    display: flex;
+    white-space: nowrap;
+    flex-direction: row;
+    align-items: center;
+
+}
+.payment{
+    padding-left: 10px;
+    padding-right: 50px;
+    
+}
+
+.progress-bar{
+    background-color: white;
+    width: 100%;
+    height: 7px;
+    border-radius: 10px;
+    
+}
+
+.progress-bar div{
+    height: 7px;
+    border-radius: 5px;
+    width: 0%;
+    background-color:darkslategrey;
+}
+.progress-bar div span{
+    height: 20px;
+    width: 90px;
+    border-radius: 5px;
+    background-color: darkslategrey;
+    float: right;
+    margin-top: -8px;
+    margin-right: -15px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pic2{
+    font-size: 12px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.sub3-box{
+    
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    margin: 10px 10px 0px 10px;
+}
+.sub3-box button{
+    text-transform: uppercase;
+    margin: 20px 10px 0px 10px;
+    height: 40px;
+    width: 120px;
+    border-radius: 6px;
+    border-style: none;
+    box-shadow: 5px 3px 5px 3px silver;
+    font-size: larger;
+    font-weight: bold;
+}
+.submit{
+    background-color: darkslategrey;
+    color: white;
+}
+.reset{
+    background-color: white;
+    color: grey;
+}
+.reset:hover{
+    background-color: darkslategrey;
+    color: white;
+}
+.submit:hover{
+    background-color: white;
+    color: grey;
+}
+
+.donateus{
+    animation: donateus 2s linear forwards;
+}
+@keyframes donateus{
+    100%{
+        width: 70%;
+    }
+}
+.skills h3{
+    color: black;
+    text-transform: uppercase;
+    padding-top: 65px;
+    padding-bottom: 5px;
+    font-size: 17px;
+}
+
+
+    
+
+
+
+
+
